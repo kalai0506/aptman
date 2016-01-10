@@ -1,4 +1,7 @@
-
+.container-fluid{
+    background-image: url("../img/home.png");
+    min-height: 650px;
+}
 .topbg{
     background-color: #1b6d85;
     min-height: 10px;
@@ -8,12 +11,20 @@
     min-height: 10px;
 }
 .footer{
+    font-family: "Lucida Sans";
     background-color: #333333;
-    min-height: 400px;
+    min-height: 10px;
+    color: white;
+    font-weight: bold;
+}
+.subfooter{
+    font-family: "Lucida Sans";
+    background-color: #333333;
+    min-height: 10px;
+    color: #e5f6ff;
+    font-size: small;
 }
 .bdy{
-    background-image: url("../img/home.png");
-    min-height: 650px;
 }
 h1{
     font-family: "Myriad pro condensed";
@@ -24,4 +35,13 @@ h2{
     font-style: italic;
     font-size: 25px;
     color: #dbd371;
+}
+.blankspace{
+    min-height: 400px;
+}
+.logo{
+    color: white;
+}
+.fillspace{
+    min-height: 50px;
 }

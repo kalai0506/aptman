@@ -14,7 +14,7 @@
 </head>
 <body>
 {{--<div class="row ">--}}
-    {{--<div class="col-sm-12 jumbotron">--}}
+    {{--<div class="col-lg-12 jumbotron">--}}
         {{--<h1>Bootstrap Tutorial</h1>--}}
         {{--<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing--}}
             {{--responsive, mobile-first projects on the web.</p>--}}
@@ -22,27 +22,66 @@
 {{--</div>--}}
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12 topbg"></div>
+        <div class="col-lg-12 topbg"></div>
     </div>
 
-    <div class="row bdy">
-        <div class="col-sm-8 ">
-            <h1 class="page-header">AptMan</h1>
-            <h2 class="well-sm">India's best apartment community manager</h2>
+    <div class="row">
+        <div class="col-lg-8 logo">
+            <h1>aptman</h1>
+            India's best apartment community manager
         </div>
-        <div class="col-sm-4">
+        <div class="col-lg-4">
             <button type="button" class="btn btn-success center-block">Sign In</button>
         </div>
     </div>
+    <br><br><br><br><br>
     <div class="row">
-        <div class="col-sm-12">
-
+        <div class="col-lg-12 fillspace"></div>
+    </div>
+    <div class="row form-inline">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-7">
+            <input type="text" class="form-control left" id="usr" size="55">
+            <button type="button" class="btn btn-warning left">Search / Add your community</button>
+        </div>
+        <div class="col-lg-2">
         </div>
     </div>
+    <br><br>
     <div class="row">
-        <div class="col-sm-12 btmbg"></div>
+        <div class="col-lg-12 blankspace"></div>
     </div>
-    <div class="row footer"></div>
+    <div class="row">
+        <div class="col-lg-12 btmbg"></div>
+    </div>
+    <div class="row footer">
+        <br>
+        <div class="col-lg-3 ">aptman</div>
+        <div class="col-lg-3 ">Footer Col-2</div>
+        <div class="col-lg-3 ">Footer Col-3</div>
+        <div class="col-lg-3 ">Footer Col-4</div>
+    </div>
+    <div class="row subfooter">
+        <br>
+        <div class="col-lg-3 ">Footer Col-1.1</div>
+        <div class="col-lg-3 ">Footer Col-2.1</div>
+        <div class="col-lg-3 ">Footer Col-3.1</div>
+        <div class="col-lg-3 ">Footer Col-4.1</div>
+    </div>
+    <div class="row subfooter">
+        <br>
+        <div class="col-lg-3 ">Footer Col-1.2</div>
+        <div class="col-lg-3 ">Footer Col-2.2</div>
+        <div class="col-lg-3 ">Footer Col-3.2</div>
+        <div class="col-lg-3 ">Footer Col-4.2</div>
+    </div>
+    <div class="row subfooter">
+        <br>
+        <div class="col-lg-3 ">Footer Col-1.3</div>
+        <div class="col-lg-3 ">Footer Col-2.3</div>
+        <div class="col-lg-3 ">Footer Col-3.3</div>
+        <div class="col-lg-3 ">Footer Col-4.3</div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
