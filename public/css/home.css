@@ -1,12 +1,11 @@
-body{
-    background-color:#33AAAA;
-}
+
 .topbg{
     background-color: #1b6d85;
     min-height: 10px;
 }
-.header{
-    background-color:#33AAAA;
+.btmbg{
+    background-color: #1b6d85;
+    min-height: 10px;
 }
 .footer{
     background-color: #333333;
@@ -14,5 +13,15 @@ body{
 }
 .bdy{
     background-image: url("../img/home.png");
-    min-height: 750px;
+    min-height: 650px;
+}
+h1{
+    font-family: "Myriad pro condensed";
+    font-size: 50px;
+    color: #9adb98;
+}
+h2{
+    font-style: italic;
+    font-size: 25px;
+    color: #dbd371;
 }
