@@ -10,25 +10,24 @@
     <!-- Bootstrap CSS served from a CDN -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"
           rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
 
-<div class="container">
-    <h1>My First Bootstrap Page</h1>
-    <p>This is some text.</p>
+<div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4">.col-sm-4</div>
-        <div class="col-sm-4">.col-sm-4</div>
-        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-12 topbg"></div>
+    <div class="row header">
+        <div class="col-sm-8">
+            <h1>Apt Man</h1>
+            <h2>Your best apartment manager</h2>
+        </div>
+        <div class="col-sm-4">
+            <button type="button" class="btn btn-success center-block">Sign In</button>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-sm-4"><button type="button" class="btn btn-default">Default</button>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-link">Link</button></div>
+    <div class="row bdy">
+        <div class="col-sm-4"><button type="button" class="btn btn-default">Default</button></div>
         <div class="col-sm-8">
     <h2>Contextual Colors</h2>
     <p>Use the contextual classes to provide "meaning through colors":</p>
@@ -41,6 +40,7 @@
         </div>
 
     </div>
+    <div class="row footer"></div>
 </div>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
