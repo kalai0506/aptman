@@ -36,7 +36,7 @@ class NxtNiftController extends Controller {
     return $data;
   }
   public function index(){
-    return json_encode(parse_info());
+    return return response()->json(parse_info());
   }
 
 }
