@@ -19,7 +19,6 @@ class NxtNiftController extends Controller {
     preg_match_all('/<li [^>]*>(.*?)<span [^>]*>(.*?)<\/span>\s*?<\/li>/', $s, $out, PREG_SET_ORDER);
     $data = array('swing' => 'UP');
     foreach ( $out as $match ) {
-      print_r ($match);
       if ( preg_match('/<img/', $match[1]) ) {
         if ( preg_match('/spec-menu-arrow.png/', $match[1]) ) {
           $data['swing'] = 'DOWN';
