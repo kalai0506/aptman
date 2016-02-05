@@ -35,7 +35,7 @@ class NxtNiftController extends Controller {
     return $data;
   }
   public function index(){
-    return return response()->json(parse_info());
+    return return response()->json(parse_info())->header('Access-Control-Allow-Origin', '*');
   }
 
 }
