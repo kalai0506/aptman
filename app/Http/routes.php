@@ -14,6 +14,8 @@ Route::get('/', 'HomeController@index');
 
 Route::get('helo', 'HeloController@helo');
 
+Route::get('/nxtnifty', 'NxtNiftController@index');
+
 
 Route::get('names', function()
 {
